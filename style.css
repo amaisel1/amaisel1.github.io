@@ -149,7 +149,7 @@ footer {
 }
 
 table {
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -159,6 +159,7 @@ td {
     border-width: thin;
     border-collapse: collapse;
     text-align: center;
+    padding: 10px;
 }
 
 th {
@@ -178,5 +179,17 @@ th {
 }
 
 .subpoints {
-    list-style-type: square
+    list-style-type:disc;
+}
+
+#house {
+    padding: 10px;
+}
+
+#duck {
+    padding: 10px;
+}
+
+#apt {
+    padding: 10px;
 }
