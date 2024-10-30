@@ -182,6 +182,12 @@ th {
     list-style-type:disc;
 }
 
+.decorativepics {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 50%;
+    justify-content: center;
+}
 #house {
     padding: 10px;
 }
