@@ -12,6 +12,10 @@ a:any-link {
     color: black;
 }
 
+::selection {
+    background-color: azure;
+}
+
 /* instructional code snippets for editing link attributes sourced from https://www.w3schools.com/css/css_link.asp */
 
 h1 {
@@ -61,6 +65,7 @@ ol {
     border-width: thin;
     position:relative;
     margin: 50px;
+    font-size: 16px;
     padding-right: 10px;
 }
 
@@ -75,7 +80,7 @@ li a {
 }
 
 #headshot {    
-    margin: 10px; 
+    margin: 50px; 
 }
 
 p {
@@ -86,19 +91,21 @@ p {
 #pagetext {
     font-family: "Uchen", sans-serif;
     font-weight: 400;
-    font-size: 11pt;
+    font-size: 14pt;
     font-style: normal;
     border-right: solid;
     border-left: solid;
     border-width: thin;
     position: relative;
     padding: 10px;
-    width: 40%; 
+    width: 50%; 
     
 }
 body {
     background-color: #ebebe0;
+
 }
+
 
 .contact {
     display: flex;
@@ -180,22 +187,4 @@ th {
 
 .subpoints {
     list-style-type:disc;
-}
-
-.decorativepics {
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 50%;
-    justify-content: center;
-}
-#house {
-    padding: 10px;
-}
-
-#duck {
-    padding: 10px;
-}
-
-#apt {
-    padding: 10px;
 }
