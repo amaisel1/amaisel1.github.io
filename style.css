@@ -147,13 +147,22 @@ footer {
 
 .pagecontent {
     display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutcontent {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border-right: solid;
     border-left: solid;
     border-width: thin;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding: 10px;
 }
 
