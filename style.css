@@ -64,7 +64,6 @@ ol {
     border-width: thin;
     position:relative;
     margin: 50px;
-    font-size: 16px;
     padding-right: 10px;
 }
 
@@ -142,6 +141,7 @@ footer {
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .pagecontent {
@@ -151,6 +151,21 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.project-section {
+    border-right: solid;
+    border-left: solid;
+    border-width: thin;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
 }
 
 .aboutcontent {
@@ -163,7 +178,88 @@ footer {
     margin-left: 30%;
     margin-right: 30%;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
+
+.project-content {
+    flex: 1;
+}
+
+.project-image {
+    flex: 1;
+    max-width: 45%;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border: solid;
+    border-width: thin;
+}
+
+@media (max-width: 968px) {
+    .project-section {
+        flex-direction: column;
+    }
+    .project-image {
+        max-width: 100%;
+    }
+}
+
+.project-title {
+    font-family: "Uchen", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-decoration: underline;   
+}
+
+.project-meta {
+    font-family: "Uchen", sans-serif;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.project-description {
+    font-family: "Uchen", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-description p {
+    margin-bottom: 15px;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.project-links a {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    display: inline-block;
+}
+
+hr {
+    border: none;
+    border-top: solid;
+    border-width: thin;
+    margin: 40px 20%;
+}
+
 
 table {
     width: 80%;
